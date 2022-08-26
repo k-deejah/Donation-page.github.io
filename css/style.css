@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+    background-color:#F8F8F8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.first-img {
+  width: 1440px;
+  height: 500px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.happy-face {
+  width: 50%;
+}
+
+.h3 {
+    font-family:' Montserrat', sans-serif;
+    font-size: 27px;
+}
+
+.writeup{
+    margin-right: 30px;
+    
+}
+
+.writeup p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.donation {
+    display: flex;
+    align-items: center;
+   text-align: center;
+   width: 40%;
+   margin: auto;
+   margin-bottom: 45px;
+}
+
+.donation a {
+    text-decoration: none;
+    border: 1.5px solid;
+    border-color: #0B55F4;
+    padding: 5px 102px;
+    border-radius: 2px;
+}
+
+.cash a{
+    color: #F8F8F8;
+    background-color: #0B55F4;
+}
+
+.material a:active {
+color: #F8F8F8;
+background-color: #0B55F4;
+}
+
+.form {
+    width: 40%;
+    margin: auto;
+    font-size: 16px;
+}
+
+.names, .residence, .province {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-bottom: 35px;
+}
+
+#email, #address {
+    width: 518px;
+    height: 30px;
+    background-color: #F8F8F8;
+    border: 1px solid #5d6363;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+
+.inwidth {
+    width: 250px;
+    height: 30px;
+    background-color: #F8F8F8;
+    border: 1px solid #5d6363;
+    border-radius: 5px;
+}
+.payment{
+    margin-bottom: 3%;
+}
+#card{
+    margin-right: 0.1em;
+}
+#flutterwave{
+    margin-left: 5em;
+}
+#paystack{
+    margin-left: 5em;
+}
+    
+           
+
+@media only screen and (max-width:428px){
+
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+        .first-img {
+            width: 1440px;
+            height: 500px;
+        }
+            }
+               @media only screen and (max-width:768px){
+                  .container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+                    .first-img {
+                        width: 1440px;
+                        height: 500px;
+                    }
+                }
+                     
+         
+          
+            
