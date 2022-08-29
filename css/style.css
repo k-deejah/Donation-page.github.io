@@ -1,52 +1,59 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-
 body{
     background-color:#F8F8F8;
     font-family: 'Open Sans', sans-serif;
 }
-
-.first-img {
-  width: 1440px;
-  height: 500px;
+.first-image{
+    width: 1440px;
+    height: 544px;
+    left: 0px;
+    top: 0;
+    background: rgba(0,29, 192, 0.25);
 }
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 100px;
-}
-
-.happy-face {
-  width: 50%;
-}
-
-.h3 {
+.container{
+    display: flex;
+    justify-content: center;
+    
+}.h3 {
     font-family:' Montserrat', sans-serif;
     font-size: 27px;
+
 }
 
-.writeup{
-    margin-right: 30px;
-    
+.message{
+     font-family:' Open Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 22px;
+     letter-spacing: 0.5px;
+     color: #131515;
 }
 
-.writeup p{
+.message p{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-}
+    width: 569px;
+    height: 176px;
 
-.donation {
+}
+.donation{
     display: flex;
-    align-items: center;
-   text-align: center;
-   width: 40%;
+    flex-direction: row;
+
+justify-content: center;
+   align-items: center;
+   width: 342px;
+   height: 49px;
    margin: auto;
-   margin-bottom: 45px;
+padding: 10px;
+
+
+   
 }
 
 .donation a {
@@ -68,140 +75,356 @@ background-color: #0B55F4;
 }
 
 .form {
-    width: 40%;
+    align-items: center;
+    justify-content: center;
     margin: auto;
     font-size: 16px;
-}
+    width: 708px;
+    height: 616px;
+    left: 159px;
+    top: 1541px;
 
-.names, .residence, .province {
+}
+.picture{
+    width: 599px;
+    height: 485px;
+    left:732px;
+    top:720px;
+}
+.name{
+    width: 70%;
     display: flex;
-    justify-content: space-between;
-    padding-right: 20px;
-    margin-bottom: 35px;
-}
-
-#email, #address {
-    width: 518px;
-    height: 30px;
-    background-color: #F8F8F8;
-    border: 1px solid #5d6363;
-    border-radius: 5px;
-    margin-bottom: 35px;
-}
-
-.inwidth {
-    width: 250px;
-    height: 30px;
-    background-color: #F8F8F8;
-    border: 1px solid #5d6363;
-    border-radius:5px;
-}
-.payment{
-    margin-bottom: 15%;
-    margin-top: 15%;
-}
-.hii{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-section{
-    margin-right: 40%;
-}
+    align-items: center;
     
-           
+    flex-direction: row;
+    padding-right: 10px;
+    
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+    color: #333535;
+    padding: 12px 0px;
+    gap: 16px;
+}
+
+.residence{
+
+
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    
+    font-size: 16px;
+    line-height: 22px;
+    
+    letter-spacing: 0.5px;
+    color: #333535;
+    
+    padding: 12px 0px;
+    gap: 8px;
+}
+.text{
+    text-align: left;
+    margin-right: 150%;
+}
+ .province {
+    display: flex;
+    align-items: flex-start;
+    
+    flex-direction: row;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    width: 75%;
+    font-size: 16px;
+    line-height: 22px;
+    
+    letter-spacing: 0.5px;
+    color: #333535;
+    
+    
+    padding: 12px 0px;
+    gap: 8px;
+
+}
+
+
+#state{
+width: 105%;
+height: 22px;
+
+line-height: 22px;
+
+letter-spacing: 0.5px;
+padding: 12px 0px;
+gap: 8px; 
+
+
+display: flex;
+flex-direction: row;
+align-items: center;
+border: 1px solid #333535;
+
+border-radius: 8px;
+margin-right: 90%;
+
+
+
+}
+#fname{
+    letter-spacing: 0.5px;
+width: 105%;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding:  8px;
+border: 1px solid #333535;
+
+border-radius: 8px;
+margin-right: 90%;
+}
+#lname{
+width: 150%;
+
+
+
+
+border: 1px solid #333535;
+letter-spacing: 0.5px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding:  8px;
+border-radius: 8px;
+gap: 16px;
+
+}
+#city{
+
+width: 150%;
+height: 22px;
+
+line-height: 22px;
+
+letter-spacing: 0.5px;
+padding: 12px 0px;
+gap: 16px;
+border: 1px solid #333535;
+border-radius: 8px;
+
+
+
+align-items: flex-start;
+
+}
+#country{
+    width: 105%;
+    height: 22px;
+    
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #333535;
+    
+    padding: 12px 0px;
+    gap: 8px;
+    
+    
+    
+    border: 1px solid #333535;
+    border-radius: 8px;
+    align-items: center;
+       
+}
+#zcode{
+
+width: 150%;
+height: 22px;
+
+line-height: 22px;
+
+letter-spacing: 0.5px;
+padding: 12px 0px;
+gap: 8px;
+border: 1px solid #333535;
+border-radius: 8px;
+
+
+
+align-items:flex-start;
+
+
+
+
+
+
+}
+
+#email{
+
+
+height: 22px;
+
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.5px;
+color: #333535;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 0px;
+gap: 8px;
+
+
+border: 1px solid #333535;
+border-radius: 8px;
+
+
+align-items: flex-start;
+width: 70%;
+}
+
+
+#address{
+
+height: 22px;
+line-height: 22px;
+letter-spacing: 0.5px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 0px;
+gap: 8px;
+border: 1px solid #333535;
+border-radius: 8px;
+align-self: stretch;
+width: 70%;
+
+justify-content: center;
+align-items: flex-start;
+
+
+
+
+
+
+}
+
+.payment{
+
+width: 73px;
+height: 22px;
+font-size: 16px;
+line-height: 22px;
+
+letter-spacing: 0.5px;
+
+
+color: #333535;
+
+align-items: flex-start;
+padding: 0px;
+padding: 0px;
+gap: 10px;
+}
+
+
+
+
+
+
+
+
+#card{
+
+width: 72px;
+height: 22px;
+
+font-size: 16px;
+line-height: 22px;
+
+letter-spacing: 0.5px;
+
+
+color: #333535;
+
+
+border: 2px solid #0B55F4;
+
+}
+#Flutterwave{
+
+width: 72px;
+height: 22px;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.5px;
+color: #333535;
+
+
+
+border: 2px solid #0B55F4;
+
+
+}
+
+
+#paystack{
+
+width: 72px;
+height: 22px;
+
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.5px;
+color: #333535;
+}
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:768px){
- .first-img {
-    width: 720px;
-    height: 500px;
+    .container{
+        flex-direction: column;
+    }}
+@media only screen and (max-width:428px){
+.first-image{
+width: 427px;
+height: 386px;
+left: 0px;
+top: 0px;
+}
+.message{
+    width:372px;
+    height: 209px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+}
+.message h3{
+    width: 372px;
+    height: 123px;
 }
 .container{
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    margin: 25px;
+    
+    
 }
-    .form {
-        width: 20%;
-        margin: auto;
-        font-size: 16px;
-    }
-    .writeup{
-        width: 150%;
-        margin-right: 15px;
-        justify-content: center;
-        margin-top: 15%;
-        margin-bottom: 15%;
-        margin-left: 90%;
-    }
-
-    .names, .residence, .province {
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-
-        justify-content: space-between;
-        padding-right: 10px;
-        margin-bottom: 14.5px;
-            
-    }
-   
+.picture{
+    width: 428px;
+    height: 485px;
+    left: 0px;
+    top:873px;
 }
-    
-
-.h3{
-    margin-bottom: 4em;
 }
-    
-           
-
-          
-    
-
- @media only screen and (max-width:428px){
-  
-    .first-img {
-        width: 720px;
-        height: 500px;} 
-          .container{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 50px;
-            flex-direction: column;
-        }
-            .form {
-                width: 20%;
-                margin: auto;
-                font-size: 16px;
-            }
-        
-            .names, .residence, .province {
-                display: flex;
-                justify-content: space-between;
-                align-items: flex-start;
-                flex-direction: column;
-                padding-right: 10px;
-                margin-bottom: 14.5px;}
-                 .writeup{
-                    width: 150%;
-                    margin-right: 15px;
-                    justify-content: center;
-                    margin-top: 15%;
-                    margin-bottom: 15%;
-                    margin-left: 90%;
-                
-            }
-        }  
-                    
-            
-            
-
-    
-            
-        
-    
-    
